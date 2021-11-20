@@ -139,4 +139,4 @@ Client.on('shardError', error => {
 	console.error('A websocket connection encountered an error:', error);
 });
 
-Client.login(NzM5ODI3Nzk4MjQ3NzM1Mzg2.XygIVA.BoCjUOjE-5A_2YT6SoSRy6GdPpQ);
+Client.login(process.env.TOKEN);
